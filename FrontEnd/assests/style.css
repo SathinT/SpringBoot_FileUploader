@@ -1,7 +1,6 @@
 body{
     position: relative;
     margin: 0;
-    overflow: hidden;
 }
 #main_heading{
     position: absolute;
@@ -14,7 +13,7 @@ body{
 }
 #upload_side{
     width: 883px;
-    height: 943px;
+    height: 1534px;
     background-color: #618264;
     position: absolute;
     margin: auto;
@@ -47,4 +46,8 @@ body{
     left: 208px;
     margin: auto;
     /*color: #D0E7D2;*/
+}
+.small-image {
+    max-width: 400px;
+    max-height: 400px;
 }
